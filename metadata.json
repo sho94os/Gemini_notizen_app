@@ -1,0 +1,6 @@
+{
+  "name": "Notizen",
+  "description": "Eine elegante und hochfunktionale Notizen-App zum Erstellen und Organisieren all deiner Gedanken, Ideen und täglichen Aufgaben.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

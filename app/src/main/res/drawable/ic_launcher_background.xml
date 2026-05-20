@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Solid Dark slate base with nice subtle diagonal linear gradient -->
+    <path android:pathData="M0,0 h108 v108 h-108 z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="0"
+                android:startY="0"
+                android:endX="108"
+                android:endY="108">
+                <item
+                    android:offset="0"
+                    android:color="#0F172A" /> <!-- Dark slate navy 900 -->
+                <item
+                    android:offset="1"
+                    android:color="#1E293B" /> <!-- Slate navy 800 -->
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Modern tech aesthetic background ring accents -->
+    <path
+        android:pathData="M 54 24 A 30 30 0 1 0 84 54"
+        android:strokeWidth="1.5"
+        android:strokeColor="#FFFFFF"
+        android:fillColor="#00000000"
+        android:strokeAlpha="0.04" />
+    <path
+        android:pathData="M 54 14 A 40 40 0 1 1 14 54"
+        android:strokeWidth="1.5"
+        android:strokeColor="#FFFFFF"
+        android:fillColor="#00000000"
+        android:strokeAlpha="0.02" />
+</vector>
